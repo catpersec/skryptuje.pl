@@ -836,12 +836,12 @@ table {
 }
 table tr {
   border-top: 1px solid #cccccc;
-  background-color: #ffffff;
+  background-color: #444444;
   margin: 0;
   padding: 0;
 }
 table tr:nth-child(2n) {
-  background-color: #f8f8f8;
+  background-color: #6a6a6a;
 }
 table tr th {
   font-weight: bold;
@@ -859,6 +859,7 @@ table tr td {
 table tr th :first-child,
 table tr td :first-child {
   margin-top: 0;
+  background-color: #6a6a6a;
 }
 table tr th :last-child,
 table tr td :last-child {
